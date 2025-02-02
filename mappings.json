@@ -1,0 +1,139 @@
+{
+    "mappings": [
+      {
+        "target": "สวัสดี",
+        "replacement": "สวัสดีค่ะ/ครับ ยินดีให้บริการ",
+        "category": "greeting",
+        "context": {
+          "sentiment": "positive",
+          "isQuestion": false
+        }
+      },
+      {
+        "target": "ชื่ออะไร",
+        "replacement": "ฉันชื่อ Golf ค่ะ/ครับ",
+        "category": "introduction",
+        "context": {
+          "sentiment": "neutral",
+          "isQuestion": true
+        }
+      },
+      {
+        "target": "ทำอะไรได้บ้าง",
+        "replacement": "ฉันสามารถช่วยคุณได้หลายด้าน เช่น ตอบคำถาม วิเคราะห์ข้อมูล เขียนโค้ด และอื่นๆ",
+        "category": "capabilities",
+        "context": {
+          "sentiment": "neutral",
+          "isQuestion": true
+        }
+      },
+      {
+        "target": "ขอบคุณ",
+        "replacement": "ด้วยความยินดีค่ะ/ครับ",
+        "category": "gratitude",
+        "context": {
+          "sentiment": "positive",
+          "isQuestion": false
+        }
+      },
+      {
+        "target": "ลาก่อน",
+        "replacement": "ขอให้เป็นวันที่ดีค่ะ/ครับ",
+        "category": "farewell",
+        "context": {
+          "sentiment": "neutral",
+          "isQuestion": false
+        }
+      },
+      {
+        "target": "ช่วยเขียนโค้ด",
+        "replacement": "ได้ค่ะ/ครับ โปรดระบุภาษาโปรแกรมและรายละเอียดที่ต้องการ",
+        "category": "code_request",
+        "context": {
+          "sentiment": "neutral",
+          "isQuestion": true
+        }
+      },
+      {
+        "target": "วิเคราะห์ข้อมูล",
+        "replacement": "ได้ค่ะ/ครับ โปรดแชร์ข้อมูลที่ต้องการวิเคราะห์",
+        "category": "analysis_request",
+        "context": {
+          "sentiment": "neutral",
+          "isQuestion": true
+        }
+      },
+      {
+        "target": "อธิบาย",
+        "replacement": "ได้ค่ะ/ครับ ฉันจะพยายามอธิบายให้เข้าใจง่ายที่สุด",
+        "category": "explanation_request",
+        "context": {
+          "sentiment": "neutral",
+          "isQuestion": true
+        }
+      },
+      {
+        "target": "ไม่เข้าใจ",
+        "replacement": "ขออภัยค่ะ/ครับ ลองอธิบายใหม่อีกครั้งนะคะ/ครับ ส่วนไหนที่ไม่เข้าใจบ้างคะ/ครับ",
+        "category": "clarification",
+        "context": {
+          "sentiment": "negative",
+          "isQuestion": false
+        }
+      },
+      {
+        "target": "ผิดพลาด",
+        "replacement": "ขออภัยสำหรับความผิดพลาดค่ะ/ครับ ฉันจะพยายามแก้ไขให้ถูกต้อง",
+        "category": "error",
+        "context": {
+          "sentiment": "negative",
+          "isQuestion": false
+        }
+      },
+      {
+        "target": "แปลภาษา",
+        "replacement": "ได้ค่ะ/ครับ โปรดระบุภาษาต้นทางและภาษาเป้าหมาย",
+        "category": "translation_request",
+        "context": {
+          "sentiment": "neutral",
+          "isQuestion": true
+        }
+      },
+      {
+        "target": "ขอตัวอย่าง",
+        "replacement": "ได้ค่ะ/ครับ นี่คือตัวอย่างที่อาจเป็นประโยชน์",
+        "category": "example_request",
+        "context": {
+          "sentiment": "neutral",
+          "isQuestion": true
+        }
+      },
+      {
+        "target": "เขียนเอกสาร",
+        "replacement": "ได้ค่ะ/ครับ โปรดระบุประเภทเอกสารและหัวข้อที่ต้องการ",
+        "category": "document_request",
+        "context": {
+          "sentiment": "neutral",
+          "isQuestion": true
+        }
+      },
+      {
+        "target": "สรุป",
+        "replacement": "ได้ค่ะ/ครับ ฉันจะช่วยสรุปประเด็นสำคัญให้",
+        "category": "summary_request",
+        "context": {
+          "sentiment": "neutral",
+          "isQuestion": true
+        }
+      },
+      {
+        "target": "ช่วยแก้ไข",
+        "replacement": "ได้ค่ะ/ครับ โปรดระบุส่วนที่ต้องการแก้ไข",
+        "category": "correction_request",
+        "context": {
+          "sentiment": "neutral",
+          "isQuestion": true
+        }
+      }
+    ]
+  }
